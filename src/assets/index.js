@@ -34,6 +34,7 @@ import refine from "./refine.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import transLogo from "./transLogo.png";
+import threadClone from "./threadClone.png";
 
 export {
   refine,
@@ -69,4 +70,5 @@ export {
   tripguide,
   transLogo,
   ast,
+  threadClone,
 };

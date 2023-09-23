@@ -14,19 +14,12 @@ import {
   mongodb,
   git,
   figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  // carrent,
-  // jobit,
-  // tripguide,
   threejs,
   ast,
   mern,
   refine,
   jobit,
+  threadClone,
 } from "../assets";
 
 export const navLinks = [
@@ -198,6 +191,36 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Threads clone",
+    description:
+      "ThreadsClone is a modern and engaging social networking application developed using the MERN (MongoDB, Express.js, React, Node.js) stack with the added power of Next.js for seamless server-side rendering and routing. This platform allows users to create, share, and engage in threaded conversations on a variety of topics.",
+    tags: [
+      {
+        name: "mern-stack",
+        color: "",
+      },
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "uploadThing",
+        color: "",
+      },
+    ],
+    image: threadClone,
+    source_code_link: "https://github.com/nassim66-ops/threads_clone",
+    link: "https://threads-clone-nassim.vercel.app/",
+  },
+  {
     name: "Refine Dashboard",
     description:
       "Web application platform that offers users the ability to effortlessly search, book, and efficiently manage property rentals from multiple providers. Designed to cater to diverse property needs, this platform provides a seamless and convenient solution, ensuring an optimal rental experience for all users",
@@ -247,27 +270,6 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/nassim66-ops/instagram-clone-server",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 const summary =
