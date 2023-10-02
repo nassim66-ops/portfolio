@@ -20,6 +20,7 @@ import {
   refine,
   jobit,
   threadClone,
+  socialMediaClone,
 } from "../assets";
 
 export const navLinks = [
@@ -246,6 +247,34 @@ const projects = [
     source_code_link: "https://github.com/nassim66-ops/refine_dashboard",
     link: "https://dashboard-refine-app.netlify.app/dashboard",
   },
+
+  {
+    name: "Social Media App Clone",
+    description:
+      "Experience a familiar and dynamic social media app clone, developed using the MERN stack (MongoDB, Express, React, and Node.js). Enjoy seamless communication and content sharing.",
+    tags: [
+      {
+        name: "mern-stack",
+        color: "",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: socialMediaClone,
+    source_code_link: "https://github.com/nassim66-ops/social-media-app",
+    link: "https://social-media-clone-app.netlify.app/home",
+  },
+
   {
     name: "Instagram clone",
     description: "Instagram clone using mern stack and the latest technologies",
