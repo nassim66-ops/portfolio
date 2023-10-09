@@ -18,9 +18,9 @@ import {
   ast,
   mern,
   refine,
-  jobit,
   threadClone,
   socialMediaClone,
+  promptopia,
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +48,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack NextJs Developer",
     icon: backend,
   },
   {
@@ -192,6 +192,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Promptopia App",
+    description:
+      "Promptopia is a full-stack Next.js application that lets users share creative prompts. With a sleek React-powered front-end and a robust Node.js back-end, it's the go-to platform for prompt enthusiasts to ignite their creativity and connect with a global community.",
+    tags: [
+      {
+        name: "full-stack",
+        color: "",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/nassim66-ops/promptopia_project",
+    link: "https://promptopia-project-nassim.vercel.app/",
+  },
+  {
     name: "Threads clone",
     description:
       "ThreadsClone is a modern and engaging social networking application developed using the MERN (MongoDB, Express.js, React, Node.js) stack with the added power of Next.js for seamless server-side rendering and routing. This platform allows users to create, share, and engage in threaded conversations on a variety of topics.",
@@ -273,31 +299,6 @@ const projects = [
     image: socialMediaClone,
     source_code_link: "https://github.com/nassim66-ops/social-media-app",
     link: "https://social-media-clone-app.netlify.app/home",
-  },
-
-  {
-    name: "Instagram clone",
-    description: "Instagram clone using mern stack and the latest technologies",
-    tags: [
-      {
-        name: "mern-stack",
-        color: "",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "refine",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/nassim66-ops/instagram-clone-server",
   },
 ];
 

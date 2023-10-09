@@ -37,6 +37,8 @@ import transLogo from "./transLogo.png";
 import threadClone from "./threadClone.png";
 import socialMediaClone from "./socialMediaClone.png";
 
+import promptopia from "./promptopia.png";
+
 export {
   refine,
   mern,
@@ -73,4 +75,5 @@ export {
   ast,
   threadClone,
   socialMediaClone,
+  promptopia,
 };
