@@ -202,7 +202,7 @@ const projects = [
     ],
     image: promptopia,
     source_code_link: "https://github.com/nassim66-ops/promptopia_project",
-    link: "https://promptopia-project-nassim.vercel.app/",
+    // link: "https://promptopia-project-nassim.vercel.app/",
   },
   {
     name: "Threads clone",
@@ -232,7 +232,7 @@ const projects = [
     ],
     image: threadClone,
     source_code_link: "https://github.com/nassim66-ops/threads_clone",
-    link: "https://threads-clone-nassim.vercel.app/",
+    // link: "https://threads-clone-nassim.vercel.app/",
   },
   {
     name: "Refine Dashboard",
@@ -285,7 +285,7 @@ const projects = [
     ],
     image: socialMediaClone,
     source_code_link: "https://github.com/nassim66-ops/social-media-app",
-    link: "https://social-media-clone-app.netlify.app/home",
+    // link: "https://social-media-clone-app.netlify.app/home",
   },
 ];
 
