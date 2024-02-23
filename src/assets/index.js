@@ -37,6 +37,7 @@ import transLogo from "./transLogo.png";
 import threadClone from "./threadClone.png";
 import socialMediaClone from "./socialMediaClone.png";
 import kgc from "./kgc-logo.png";
+import aktek from "./aktek-logo.png";
 
 import promptopia from "./promptopia.png";
 
@@ -77,5 +78,6 @@ export {
   threadClone,
   socialMediaClone,
   promptopia,
-  kgc
+  kgc,
+  aktek,
 };

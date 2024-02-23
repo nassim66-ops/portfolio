@@ -21,7 +21,8 @@ import {
   threadClone,
   socialMediaClone,
   promptopia,
-  kgc
+  kgc,
+  aktek,
 } from "../assets";
 
 export const navLinks = [
@@ -141,11 +142,23 @@ const experiences = [
     company_name: "Khattar Group",
     icon: kgc,
     iconBg: "#000",
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - Feb 2024",
     points: [
       "Technical skills",
       "Software and hardware maintenance.",
       "Soft skills",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Aktek",
+    icon: aktek,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Present",
+    points: [
+      "MERN Stack",
+      "Software Development",
+      "Developing and maintaining components and in big projects",
     ],
   },
 ];
